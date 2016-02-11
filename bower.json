@@ -1,0 +1,25 @@
+{
+  "name": "jekyll-tutorial",
+  "authors": [
+    "Keith Miyake <kmiyake@gc.cuny.edu>"
+  ],
+  "description": "Tutorial for creating a Jekyll site hosted on GitHub",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "node",
+    "github"
+  ],
+  "license": "GPLv3",
+  "homepage": "http://keithmiyake.info",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

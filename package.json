@@ -1,0 +1,37 @@
+{
+  "name": "jekyll-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial for creating a website using Jekyll for hosting on GitHub.",
+  "main": "index.js",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "jshint": "latest",
+    "node-sass": "latest",
+    "sass-lint": "latest"
+  },
+  "scripts": {
+    "build:css": "node-sass assets/styles/main.scss > dist/css/main.css",
+    "build:js": "browserify assets/scripts/main.js > dist/js/main.js",
+    "build": "npm run build:css && npm run build:js",
+    "jshint": "jshint assets/**/*.js",
+    "sasslint": "sass-lint assets/styles/main.scss",
+    "prebuild:js": "npm run jshint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaymmm/jekyll-tutorial.git"
+  },
+  "keywords": [
+    "jekyll",
+    "github",
+    "bower",
+    "npm"
+  ],
+  "author": "Keith Miyake <kmiyake@gc.cuny.edu> (http://github.com/kaymmm)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kaymmm/jekyll-tutorial/issues"
+  },
+  "homepage": "https://github.com/kaymmm/jekyll-tutorial#readme"
+}
