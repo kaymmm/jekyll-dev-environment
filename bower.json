@@ -1,5 +1,5 @@
 {
-  "name": "jekyll-tutorial",
+  "name": "jekyll-dev-environment",
   "authors": [
     "Keith Miyake <kmiyake@gc.cuny.edu>"
   ],
@@ -8,18 +8,18 @@
   "moduleType": [],
   "keywords": [
     "jekyll",
-    "gulp",
-    "node",
-    "github"
+    "github",
+    "gh-pages"
   ],
-  "license": "GPLv3",
-  "homepage": "http://keithmiyake.info",
-  "private": true,
+  "license": "GPL-3.0",
+  "homepage": "http://kaymmm.github.io/jekyll-dev-environment",
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "_site"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "jekyll-tutorial",
+  "name": "jekyll-dev-environment",
   "version": "1.0.0",
   "description": "Tutorial for creating a website using Jekyll for hosting on GitHub.",
   "main": "index.js",
@@ -44,18 +44,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaymmm/jekyll-tutorial.git"
+    "url": "git+https://github.com/kaymmm/jekyll-dev-environment.git"
   },
   "keywords": [
     "jekyll",
     "github",
+    "gh-pages",
     "bower",
     "npm"
   ],
   "author": "Keith Miyake <kmiyake@gc.cuny.edu> (http://github.com/kaymmm)",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/kaymmm/jekyll-tutorial/issues"
+    "url": "https://github.com/kaymmm/jekyll-dev-environment/issues"
   },
-  "homepage": "https://github.com/kaymmm/jekyll-tutorial#readme"
+  "homepage": "https://kaymmm.github.io/jekyll-dev-environment"
 }
