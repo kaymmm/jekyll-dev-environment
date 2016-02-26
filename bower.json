@@ -21,5 +21,8 @@
     "test",
     "tests",
     "_site"
-  ]
+  ],
+  "dependencies": {
+    "Materialize": "materialize#^0.97.5"
+  }
 }

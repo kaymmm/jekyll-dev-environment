@@ -1,18 +1,21 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
 name: Jekyll Development Environment
-description: Basic development environment for Github Jekyll + SCSS + JS + Bower
-url: http://kaymmm.github.io/jekyll-dev-environment
+description: Bootstrap development environment for Github (gh-pages) + Jekyll + Bower + SCSS + JS
+url: https://kaymmm.github.io/jekyll-dev-environment
 author:
   name: Keith Miyake
   email: kmiyake@gc.cuny.edu
-  uri: http://kaymmm.github.io/jekyll-dev-environment
-  bio: GC Digital Fellows
-  twitter: Digital_Fellows
-  github: http://github.com/GCDigitalFellows
+  uri: https://kaymmm.github.io/jekyll-dev-environment
+  github: https://github.com/kaymmm
+
+# mode = dev -> use live reload
+# mode = prod or null -> don't use live reload
+mode: dev
+
 
 # source: ./
-destination: _site
+# destination: _site
 # exclude:
 #   - '*.sh'
 #   - CNAME
