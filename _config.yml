@@ -16,11 +16,11 @@ mode: dev
 
 # source: ./
 # destination: _site
-# exclude:
-#   - '*.sh'
-#   - CNAME
-#   - bower_components
-#   - node_modules
+exclude:
+  - '*.sh'
+  - CNAME
+  - bower_components
+  - node_modules
 
 # _config.stage.yml overwrites these options when you run locally
 future: false

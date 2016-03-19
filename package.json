@@ -43,7 +43,9 @@
     "prestyles": "npm run lint:sass",
     "styles": "node-sass --output-style compressed --include-path $npm_package_sass_includes --follow _sass/style.scss -o css",
     "livereload": "livereload $npm_package_jekyll_dir/ -p 9091",
-    "serve": "npm run assets && parallelshell \"npm run jekyll:serve\" \"npm run watch:scripts\" \"npm run watch:styles\" \"npm run livereload\""
+    "preserve": "npm run assets",
+    "serve": "parallelshell \"npm run jekyll:serve\" \"npm run watch:scripts\" \"npm run watch:styles\" \"npm run livereload\"",
+    "start": "npm run serve"
   },
   "repository": {
     "type": "git",
